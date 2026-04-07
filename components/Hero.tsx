@@ -17,21 +17,26 @@ export default function Hero() {
 
           <motion.h1 initial={{ opacity: 0, y: 24 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.7, delay: 0.05 }}
             className="font-display text-5xl md:text-7xl leading-[1.02] tracking-tight">
-            <span className="text-grad">Full-stack engineer</span>
+            <span className="text-accent-grad italic">Full-stack</span>
+            <span className="text-grad"> engineer.</span>
             <br />
-            <span className="text-grad">building </span>
             <span className="text-accent-grad italic">AI-native</span>
+            <span className="text-grad"> builder.</span>
             <br />
-            <span className="text-grad">products that ship.</span>
+            <span className="text-grad">Shipping both,</span>
+            <br />
+            <span className="text-grad">in production.</span>
           </motion.h1>
           <motion.p initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.35 }}
-            className="mt-5 font-mono text-xs text-white/45 tracking-wide">
-            Java · Spring Boot · React · LangGraph · LangChain · RAG · SAP Joule
+            className="mt-5 font-mono text-[11px] text-white/45 tracking-wide flex flex-wrap gap-x-2 gap-y-1">
+            <span className="text-white/60">Full-stack →</span> Java · Spring Boot · React · Angular · Python
+            <span className="hidden md:inline text-white/20">|</span>
+            <span className="text-white/60">AI →</span> LangGraph · LangChain · RAG · SAP Joule
           </motion.p>
 
           <motion.p initial={{ opacity: 0, y: 16 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.7, delay: 0.2 }}
             className="mt-6 text-lg text-white/60 max-w-xl leading-relaxed">
-            5+ years shipping at <span className="text-white/85">SAP Labs</span>, Aviva and Zoho. Currently building <span className="text-white/85">agentic AI</span> inside SAP Joule with LangGraph, LangChain and RAG. Backend depth meets the modern AI stack.
+            5+ years of <span className="text-white/85">full-stack engineering</span> at SAP Labs, Aviva and Zoho — and I'm now <span className="text-white/85">building agentic AI</span> inside SAP Joule with LangGraph, LangChain and RAG. Two stacks. One engineer. Both in production.
           </motion.p>
 
           <motion.div initial={{ opacity: 0, y: 16 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.7, delay: 0.25 }}
@@ -39,7 +44,7 @@ export default function Hero() {
             <a href="#work" className="group inline-flex items-center gap-2 bg-grad-accent text-ink-950 font-medium px-5 py-3 rounded-full hover:shadow-glow transition">
               See selected work <ArrowRight size={16} className="group-hover:translate-x-0.5 transition" />
             </a>
-            <a href={profile.resumeUrl} download className="inline-flex items-center gap-2 glass gradient-border px-5 py-3 rounded-full text-white/85 hover:text-white">
+            <a href={profile.resumeUrl} download="Visnunathan_Chidambaranathan_Resume.pdf" className="inline-flex items-center gap-2 glass gradient-border px-5 py-3 rounded-full text-white/85 hover:text-white">
               <Download size={16} /> Download résumé
             </a>
             <a href={`mailto:${profile.email}`} className="inline-flex items-center gap-2 px-5 py-3 rounded-full text-white/65 hover:text-white">

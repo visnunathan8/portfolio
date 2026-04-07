@@ -155,7 +155,7 @@ export default function RecruiterMode({ onClose }: { onClose: () => void }) {
               <a href={`mailto:${profile.email}`} className="inline-flex items-center gap-2 bg-grad-accent text-ink-950 font-semibold px-5 py-3 rounded-full hover:shadow-glow transition">
                 <Mail size={16} /> {profile.email}
               </a>
-              <a href={profile.resumeUrl} download className="inline-flex items-center gap-2 glass gradient-border px-5 py-3 rounded-full text-white">
+              <a href={profile.resumeUrl} download="Visnunathan_Chidambaranathan_Resume.pdf" className="inline-flex items-center gap-2 glass gradient-border px-5 py-3 rounded-full text-white">
                 <Download size={16} /> Résumé
               </a>
               <a href={profile.linkedin} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 glass gradient-border px-5 py-3 rounded-full text-white">

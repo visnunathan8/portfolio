@@ -29,7 +29,13 @@ export default function CommandPalette({ open, setOpen }: { open: boolean; setOp
     { label: "Copy email", hint: profile.email, action: () => { navigator.clipboard.writeText(profile.email); setOpen(false); } },
     { label: "Open LinkedIn", action: () => { window.open(profile.linkedin, "_blank"); setOpen(false); } },
     { label: "Open GitHub", action: () => { window.open(profile.github, "_blank"); setOpen(false); } },
-    { label: "Download résumé", action: () => { window.open(profile.resumeUrl, "_blank"); setOpen(false); } },
+    { label: "Download résumé", action: () => {
+        const a = document.createElement("a");
+        a.href = profile.resumeUrl;
+        a.download = "Visnunathan_Chidambaranathan_Resume.pdf";
+        a.click();
+        setOpen(false);
+      } },
   ];
   const filtered = cmds.filter((c) => c.label.toLowerCase().includes(q.toLowerCase()));
 

@@ -22,7 +22,7 @@ export default function Contact() {
               <Mail size={16} /> {profile.email}
               <ArrowUpRight size={16} className="group-hover:rotate-12 transition" />
             </a>
-            <a href={profile.resumeUrl} download className="inline-flex items-center gap-2 glass gradient-border px-6 py-3.5 rounded-full text-white/85 hover:text-white">
+            <a href={profile.resumeUrl} download="Visnunathan_Chidambaranathan_Resume.pdf" className="inline-flex items-center gap-2 glass gradient-border px-6 py-3.5 rounded-full text-white/85 hover:text-white">
               <Download size={16} /> Résumé
             </a>
           </div>
