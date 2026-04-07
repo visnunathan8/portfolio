@@ -19,17 +19,16 @@ export default function Hero() {
             className="font-display text-6xl md:text-8xl leading-[0.95] tracking-tight">
             <span className="text-grad">Full-Stack</span>
             <br />
-            <span className="text-grad">Engineer who</span>
+            <span className="text-grad">Developer</span>
+            <span className="text-grad">,</span>
             <br />
-            <span className="text-grad">ships </span>
+            <span className="text-grad">building with </span>
             <span className="text-accent-grad italic">AI</span>
-            <span className="text-grad"> in</span>
-            <br />
-            <span className="text-grad">production.</span>
+            <span className="text-grad">.</span>
           </motion.h1>
           <motion.p initial={{ opacity: 0, y: 16 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.7, delay: 0.2 }}
             className="mt-8 text-xl md:text-2xl text-white/65 max-w-2xl leading-snug">
-            5+ years of <span className="text-white">full-stack engineering</span> at SAP Labs, Aviva and Zoho — and now <span className="text-white">shipping agentic AI</span> inside SAP Joule with LangGraph, LangChain and RAG.
+            5+ years shipping production systems with <span className="text-white">Java, Spring Boot, React and Angular</span> at SAP Labs, Aviva and Zoho — now building <span className="text-white">agentic AI</span> inside SAP Joule with LangGraph, LangChain and RAG.
           </motion.p>
 
           <motion.div initial={{ opacity: 0, y: 16 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.7, delay: 0.25 }}
