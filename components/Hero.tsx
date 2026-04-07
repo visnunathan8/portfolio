@@ -5,7 +5,7 @@ import { profile } from "@/content/data";
 
 export default function Hero() {
   return (
-    <section id="top" className="relative min-h-screen flex items-center spotlight pt-32 pb-20">
+    <section id="top" className="relative min-h-screen flex items-center spotlight pt-28 pb-12">
       <div className="mx-auto max-w-6xl px-6 w-full grid lg:grid-cols-12 gap-10 items-center">
         {/* Left */}
         <div className="lg:col-span-7">
@@ -16,27 +16,20 @@ export default function Hero() {
           </motion.div>
 
           <motion.h1 initial={{ opacity: 0, y: 24 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.7, delay: 0.05 }}
-            className="font-display text-5xl md:text-7xl leading-[1.02] tracking-tight">
-            <span className="text-accent-grad italic">Full-stack</span>
-            <span className="text-grad"> engineer.</span>
+            className="font-display text-6xl md:text-8xl leading-[0.95] tracking-tight">
+            <span className="text-grad">Full-Stack</span>
             <br />
-            <span className="text-accent-grad italic">AI-native</span>
-            <span className="text-grad"> builder.</span>
+            <span className="text-grad">Engineer who</span>
             <br />
-            <span className="text-grad">Shipping both,</span>
+            <span className="text-grad">ships </span>
+            <span className="text-accent-grad italic">AI</span>
+            <span className="text-grad"> in</span>
             <br />
-            <span className="text-grad">in production.</span>
+            <span className="text-grad">production.</span>
           </motion.h1>
-          <motion.p initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.35 }}
-            className="mt-5 font-mono text-[11px] text-white/45 tracking-wide flex flex-wrap gap-x-2 gap-y-1">
-            <span className="text-white/60">Full-stack →</span> Java · Spring Boot · React · Angular · Python
-            <span className="hidden md:inline text-white/20">|</span>
-            <span className="text-white/60">AI →</span> LangGraph · LangChain · RAG · SAP Joule
-          </motion.p>
-
           <motion.p initial={{ opacity: 0, y: 16 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.7, delay: 0.2 }}
-            className="mt-6 text-lg text-white/60 max-w-xl leading-relaxed">
-            5+ years of <span className="text-white/85">full-stack engineering</span> at SAP Labs, Aviva and Zoho — and I'm now <span className="text-white/85">building agentic AI</span> inside SAP Joule with LangGraph, LangChain and RAG. Two stacks. One engineer. Both in production.
+            className="mt-8 text-xl md:text-2xl text-white/65 max-w-2xl leading-snug">
+            5+ years of <span className="text-white">full-stack engineering</span> at SAP Labs, Aviva and Zoho — and now <span className="text-white">shipping agentic AI</span> inside SAP Joule with LangGraph, LangChain and RAG.
           </motion.p>
 
           <motion.div initial={{ opacity: 0, y: 16 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.7, delay: 0.25 }}
@@ -70,7 +63,6 @@ export default function Hero() {
             <Row k="experience" v="5+ years full-stack" />
             <Row k="focus" v="Full-stack × Agentic AI" />
             <Row k="location" v={profile.location} icon />
-            <Row k="based_in" v="Toronto, Canada" />
             <div className="mt-5 pt-4 border-t border-white/5 text-white/35">
               <span className="text-accent-grad">$</span> ask me about → SAP Joule, LangGraph agents, Spring Boot, Angular
             </div>
