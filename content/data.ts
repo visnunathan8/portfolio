@@ -151,11 +151,11 @@ export const projects: Project[] = [
   },
   {
     featured: true,
-    name: "Zoho Cross-Framework Component Library",
-    tagline: "One component, every framework.",
-    problem: "Zoho's product suite spanned Angular, React, Vue, Node and LyteJS — UI was diverging.",
-    impact: "Reusable web components with Docker-based publishing, adopted across multiple Zoho products.",
-    stack: ["Web Components", "Angular", "React", "Vue", "Docker"],
+    name: "Attendance Management System",
+    tagline: "High-performance attendance platform for a SaaS workforce.",
+    problem: "Zoho needed a scalable attendance system handling concurrent check-ins across a large user base.",
+    impact: "Built end-to-end with Spring Boot, Angular and Hibernate ORM — reliable, fast, and production-deployed.",
+    stack: ["Java", "Spring Boot", "Angular", "Hibernate", "MySQL"],
     tag: "Full-Stack",
   },
   {
