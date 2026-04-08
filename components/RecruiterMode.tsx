@@ -53,7 +53,7 @@ export default function RecruiterMode({ onClose }: { onClose: () => void }) {
                 <Code2 size={14} className="text-accent-cyan" /> Full-Stack Engineer · AI Systems
               </span>
               <span className="inline-flex items-center gap-2 text-base">
-                <MapPin size={14} className="text-accent-cyan" /> Toronto, Canada
+                <MapPin size={14} className="text-accent-cyan" /> Canada
               </span>
             </div>
           </motion.div>
@@ -149,7 +149,7 @@ export default function RecruiterMode({ onClose }: { onClose: () => void }) {
           >
             <div>
               <div className="font-display text-2xl text-grad">Let's talk.</div>
-              <div className="text-white/55 text-sm mt-1">Toronto, Canada · Senior full-stack & AI roles</div>
+              <div className="text-white/55 text-sm mt-1">Canada · Senior full-stack & AI roles</div>
             </div>
             <div className="flex flex-wrap gap-2">
               <a href={`mailto:${profile.email}`} className="inline-flex items-center gap-2 bg-grad-accent text-ink-950 font-semibold px-5 py-3 rounded-full hover:shadow-glow transition">

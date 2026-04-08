@@ -81,7 +81,7 @@ export default function AssistantBot() {
       } else if (/contact|hire|email|reach/.test(lower)) {
         r = {
           from: "bot",
-          text: `Best way: email ${profile.email}. He's based in Toronto, Canada and open to relocation.`,
+          text: `Best way: email ${profile.email}. Open to opportunities worldwide.`,
           actions: [
             { label: "Open Contact →", do: () => go("contact") },
             { label: "Copy email", do: () => navigator.clipboard.writeText(profile.email) },
@@ -93,8 +93,8 @@ export default function AssistantBot() {
           text: "5+ years across 4 companies on 2 continents. Currently SAP Labs Canada (since June 2024). Before that: Aviva Canada, Concordia University Research, and Zoho Corporation in India.",
           actions: [{ label: "See Experience →", do: () => go("experience") }],
         };
-      } else if (/location|where|toronto|canada|relocat/.test(lower)) {
-        r = { from: "bot", text: "Toronto, Canada — open to relocation anywhere." };
+      } else if (/location|where|relocat/.test(lower)) {
+        r = { from: "bot", text: "Open to opportunities across Canada and worldwide." };
       } else {
         r = {
           from: "bot",

@@ -14,7 +14,7 @@ export default function Contact() {
             <br />worth shipping.
           </h2>
           <p className="mt-6 text-white/55 max-w-xl mx-auto">
-            Full-stack and AI engineering roles. Based in Toronto, Canada.
+            Full-stack and AI engineering roles.
           </p>
 
           <div className="mt-10 flex flex-wrap justify-center gap-3">

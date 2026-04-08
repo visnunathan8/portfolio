@@ -12,7 +12,7 @@ export default function Hero() {
           <motion.div initial={{ opacity: 0, y: 16 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6 }}
             className="inline-flex items-center gap-2 glass rounded-full px-3 py-1.5 text-xs font-mono text-white/70 mb-8">
             <MapPin size={11} className="text-accent-cyan" />
-            Toronto, Canada
+            Canada
           </motion.div>
 
           <motion.h1 initial={{ opacity: 0, y: 24 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.7, delay: 0.05 }}

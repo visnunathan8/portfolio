@@ -4,7 +4,7 @@ export const profile = {
   name: "Visnunathan Chidambaranathan",
   shortName: "Visnu",
   title: "Full-Stack Developer",
-  location: "Toronto, Canada",
+  location: "Canada",
   email: "visnu8898@gmail.com",
   phone: "+1 (514) 578-8948",
   github: "https://github.com/visnunathan8",
@@ -12,7 +12,7 @@ export const profile = {
   resumeUrl: `${process.env.NEXT_PUBLIC_BASE_PATH || ""}/resume.pdf`,
   tagline: "Full-stack engineer building AI-native products.",
   summary:
-    "Full-stack engineer with 5+ years shipping production systems at SAP Labs, Aviva, Concordia and Zoho — and currently building agentic AI capabilities inside SAP Joule with LangGraph, LangChain and RAG. I bridge real backend depth with the AI tools that are reshaping how products get built. Based in Toronto, Canada.",
+    "Full-stack engineer with 5+ years shipping production systems at SAP Labs, Aviva, Concordia and Zoho — and currently building agentic AI capabilities inside SAP Joule with LangGraph, LangChain and RAG. I bridge real backend depth with the AI tools that are reshaping how products get built. Based in Canada.",
 };
 
 export const metrics = [
